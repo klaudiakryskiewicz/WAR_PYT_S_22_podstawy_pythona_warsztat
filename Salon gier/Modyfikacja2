@@ -1,0 +1,4 @@
+# Spróbuj teraz przenieść swoją grę na serwer przy użyciu Flaska.
+# Aby przechowywać informację między turami, wykorzystaj ukryte pola formularza.
+# Nie jest to najlepsze rozwiązanie (może być podatne na oszukiwanie), ale na tę chwilę się tym nie przejmujemy.
+# Wybór kości przed rzutem, powinien odbywać się za pomocą formularza.
