@@ -5,7 +5,7 @@ max_number = 1000
 guessed = False
 while not guessed:
     guess = int((max_number - min_number) / 2) + min_number
-    print(f"Zgaduję: {guess} ")
+    print(f"I'm guessing: {guess} ")
     answer1 = input("Did I guess your number? ")
     if answer1 == "yes":
         print("I won!")

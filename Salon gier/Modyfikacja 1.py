@@ -1,4 +1,4 @@
-from random import randint, sample, choice
+from random import randint, choice
 
 user_points = 0
 ai_points = 0

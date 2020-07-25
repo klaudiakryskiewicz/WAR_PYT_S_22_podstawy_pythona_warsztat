@@ -3,7 +3,7 @@ import random
 i = 0
 number_list = []
 while i < 6:
-    number = input(f"Give me {i + 1} number: ")
+    number = input(f"Give me number {i + 1}: ")
     try:
         number = int(number)
     except ValueError:
@@ -18,17 +18,15 @@ while i < 6:
         i += 1
 
 number_list.sort()
-print(number_list)
+print("Your numbers:", number_list)
 
 ai_list = random.sample(range(1, 50), 6)
 ai_list.sort()
-print(ai_list)
-
+print("Drawn numbers:", ai_list)
 
 no_of_guessed = 0
 for number in number_list:
     if number in ai_list:
         no_of_guessed += 1
-
 
 print(f"You guessed {no_of_guessed} numbers!")
